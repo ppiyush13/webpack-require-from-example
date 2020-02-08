@@ -1,0 +1,43 @@
+{
+    "name": "require-from-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "start": "webpack-dev-server",
+        "build:mf": "webpack --config ./micro-frontend/webpack.mf.config.js",
+        "serve:mf": "serve micro-frontend/micro-dist -d",
+        "build-serve:mf": "npm run build:mf && npm run serve:mf",
+        "start:mf": "webpack-dev-server --config ./micro-frontend/webpack.mf.config.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/preset-react": "^7.8.3",
+        "file-loader": "^4.3.0",
+        "loadjs": "^4.2.0",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "style-loader": "^1.1.3"
+    },
+    "devDependencies": {
+        "@babel/core": "7.8.4",
+        "babel-loader": "8.0.6",
+        "babel-preset-react-app": "^9.1.1",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "3.4.2",
+        "dynamic-entry-webpack-plugin": "^1.0.2",
+        "extract-css-chunks-webpack-plugin": "^4.7.4",
+        "html-webpack-plugin": "4.0.0-beta.11",
+        "mini-css-extract-plugin": "0.9.0",
+        "serve": "^11.3.0",
+        "url-loader": "2.3.0",
+        "webpack": "4.41.5",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "3.10.2",
+        "webpack-require-from": "workspace:^1.8.0"
+    }
+}

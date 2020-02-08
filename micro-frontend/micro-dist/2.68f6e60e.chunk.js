@@ -1,0 +1,2 @@
+(window.webpackJsonpmf1=window.webpackJsonpmf1||[]).push([[2],{"./micro-frontend/src/DynamicComp.js":function(n,o,c){"use strict";c.r(o),o.default=()=>"Dynamic Import Component"}}]);
+//# sourceMappingURL=2.68f6e60e.chunk.js.map

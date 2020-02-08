@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://mf1/./micro-frontend/src/DynamicComp.js"],"names":[],"mappings":"kIACA,OAAe,cACJ","file":"2.68f6e60e.chunk.js","sourcesContent":["\r\nexport default () => {\r\n    return 'Dynamic Import Component';\r\n}"],"sourceRoot":""}
